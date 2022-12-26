@@ -1,0 +1,19 @@
+#contain{
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px black;
+    background-color: #ccc;
+}
+#Img{
+    height: 40%;
+}
+img{
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+#information{
+    text-align: center;
+}
