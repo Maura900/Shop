@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+a {
+    text-decoration: none;
+}
+body {background-color: rgb(127, 205, 205);}
+.card-name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Graduate', cursive;
+}
+
+.card-category {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #999;
+    font-family: 'Graduate', cursive;
+}
+
+.card-price {
+    font-size: 14px;
+    font-family: 'Graduate', cursive;
+}
+
+.ratio .card-img-top {
+    object-fit: cover;
+}
+
+.nav-link,
+.card-category {
+    text-transform: capitalize;
+}
